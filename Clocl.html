@@ -27,7 +27,7 @@ function drawFace(ctx, radius) {
   ctx.fillStyle = 'grey';
   ctx.fill();
   grad = ctx.createRadialGradient(0,0,radius*0.95, 0,0,radius*1.05);
-  grad.addColorStop(0, '#000000');
+  grad.addColorStop(0, '#120037');
   grad.addColorStop(0.5, 'grey');
   grad.addColorStop(1, '#000000');
   ctx.strokeStyle = grad;
@@ -35,7 +35,7 @@ function drawFace(ctx, radius) {
   ctx.stroke();
   ctx.beginPath();
   ctx.arc(0, 0, radius*0.1, 0, 2*Math.PI);
-  ctx.fillStyle = '#120037';
+  ctx.fillStyle = '#000000';
   ctx.fill();
 }
 
